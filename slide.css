@@ -1,0 +1,40 @@
+button{
+    all: unset;
+    border-radius: 30px ;
+    width: 60px;
+    height: 60px;
+    background-color: hotpink;
+    text-align: center;
+    color: ivory;
+}
+.slide_content{
+    width: 400px;
+    height: 200px;
+    
+    color: honeydew;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* display: table-cell; */
+}
+.slide01 {
+    background-color: aqua;
+}
+.slide02 {
+    background-color: coral;
+}
+.slide03 {
+    background-color: crimson;
+}
+.slide04{
+    background-color: darkmagenta;
+}
+.slide05 {
+    background-color: gold;
+}
+.slide_wrap { position: relative; width: 400px; margin: auto; padding-bottom: 30px; }
+.slide_box { width: 100%; margin: auto; overflow-x: hidden; }
+.slide_content { display: table; float: left; width: 400px; height: 400px; }
+
+.hidden {
+    display: none;
+}
