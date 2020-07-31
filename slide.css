@@ -6,6 +6,7 @@ button{
     background-color: hotpink;
     text-align: center;
     color: ivory;
+    cursor: pointer;
 }
 .slide_content{
     width: 400px;
